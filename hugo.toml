@@ -5,5 +5,5 @@ theme = 'PaperMod'
 
 [params]
  [params.homeInfoParams]
-  Title = "Hi there wave"
-  Content = "Can be Info, links, about.."
+  Title = "Welcome to my thoughts..."
+  Content = "This blog will mostly have my ideas and thoughts about the social world, politics, economics and philosophy."
