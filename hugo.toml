@@ -32,8 +32,8 @@ showtoc = false
 tocopen = false
     
   [params.homeInfoParams]
-  Title = "Welcome to my thoughts..."
-  Content = "This blog will mostly have my ideas and thoughts about the social world, politics, economics and philosophy."
+  Title = "A place for my thoughts."
+  Content = "This blog will mostly have my ideas and thoughts about the social world, politics, economics and philosophy Mostly I will use it as somewhere to put down my thoughts and help me better understand my ideas and opinions."
 
   [params.assets]
   disableHLJS = true # to disable highlight.js
