@@ -1,7 +1,7 @@
 baseURL = 'https://unresolved-contradictions.co.uk'
 languageCode = 'en-gb'
 title = 'Unresolved Contradictions'
-theme = 'PaperMod'
+theme = 'PaperModified'
 
 enableRobotsTXT = true
 
