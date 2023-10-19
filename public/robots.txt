@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://unresolved-contradictions.co.uk/sitemap.xml
