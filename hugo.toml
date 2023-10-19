@@ -2,14 +2,21 @@ baseURL = 'https://unresolved-contradictions.co.uk'
 languageCode = 'en-gb'
 title = 'Unresolved Contradictions'
 theme = 'PaperMod'
+
 enableRobotsTXT = true
 
+paginate = 10
+
+[permalinks]
+post = "/:year/:title/"
+
 [params]
+title = 'Unresolved Contradictions'
 AuthorName = 'Unresolved Contradictions'
 description = 'My thoughts on the world.'
 keywords = ['Blog, politics, economics']
 defaultTheme = 'auto'
-defaultThemeToggle = true
+disableThemeToggle = false
 ShowReadingTime = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
@@ -31,6 +38,15 @@ tocopen = false
   [params.assets]
   disableHLJS = true # to disable highlight.js
   disableFingerprinting = true
+
+[menu]
+[[menu.main]]
+name = 'Search'
+pageRef = '/search'
+weight = 10
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
 
 [minify]
 disableXML = true
