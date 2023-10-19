@@ -1,6 +1,9 @@
 +++
-title = 'The UK's Delivery Problem'
+categories = ['Policy', 'Politics']
+title = """The UK's Delivery Problem"""
 date = 2023-10-18T17:30:16+01:00
+description = 'A look at the problems that the UK faces when it comes to policy delivery and the impacts on the electorate'
+slug = 'delivery-problem'
 +++
 
 ## The UK's reform problem
