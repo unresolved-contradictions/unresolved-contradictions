@@ -6,22 +6,40 @@
     <description>Recent content in Categories on Unresolved Contradictions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 18 Oct 2023 17:30:16 +0100</lastBuildDate><atom:link href="https://unresolved-contradictions.co.uk/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Oct 2023 23:42:45 +0100</lastBuildDate><atom:link href="https://unresolved-contradictions.co.uk/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Policy</title>
-      <link>https://unresolved-contradictions.co.uk/categories/policy/</link>
-      <pubDate>Wed, 18 Oct 2023 17:30:16 +0100</pubDate>
+      <title>Elections</title>
+      <link>https://unresolved-contradictions.co.uk/categories/elections/</link>
+      <pubDate>Fri, 20 Oct 2023 23:42:45 +0100</pubDate>
       
-      <guid>https://unresolved-contradictions.co.uk/categories/policy/</guid>
+      <guid>https://unresolved-contradictions.co.uk/categories/elections/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Politics</title>
       <link>https://unresolved-contradictions.co.uk/categories/politics/</link>
-      <pubDate>Wed, 18 Oct 2023 17:30:16 +0100</pubDate>
+      <pubDate>Fri, 20 Oct 2023 23:42:45 +0100</pubDate>
       
       <guid>https://unresolved-contradictions.co.uk/categories/politics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Voting</title>
+      <link>https://unresolved-contradictions.co.uk/categories/voting/</link>
+      <pubDate>Fri, 20 Oct 2023 23:42:45 +0100</pubDate>
+      
+      <guid>https://unresolved-contradictions.co.uk/categories/voting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Policy</title>
+      <link>https://unresolved-contradictions.co.uk/categories/policy/</link>
+      <pubDate>Wed, 18 Oct 2023 17:30:16 +0100</pubDate>
+      
+      <guid>https://unresolved-contradictions.co.uk/categories/policy/</guid>
       <description></description>
     </item>
     
