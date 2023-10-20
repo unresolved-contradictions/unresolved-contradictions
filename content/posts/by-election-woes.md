@@ -2,7 +2,7 @@
 categories = ['Politics', 'Elections', 'Voting']
 title = 'By Election Woes'
 date = 2023-10-20T23:42:45+01:00
-description = 'Greg Hands needs a reality check, the Tories are heading for failure'
+description = 'Greg Hands needs a reality check, the Tories are heading for failure.'
 slug = 'by-election-woes'
 +++
 
