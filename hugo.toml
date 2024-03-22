@@ -30,7 +30,7 @@ hidemeta = false
 hideSummary = false
 showtoc = false
 tocopen = false
-showFullTextInRss: true
+showFullTextInRss = true
     
   [params.homeInfoParams]
   Title = "A place for my thoughts."
