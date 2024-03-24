@@ -46,8 +46,8 @@ showFullTextInRss = true
   disableFingerprinting = true
 
   [params.label]
-  text = 'Home'
-  icon = '/slash_green.svg'
+  text = 'Unresolved Contradictions'
+  icon = '/logo.svg'
   iconHeight = 35
 
 [menu]
