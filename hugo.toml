@@ -37,7 +37,7 @@ showFullTextInRss = true
   Content = "This blog will mostly have my ideas and thoughts about the social world, politics, economics and philosophy. Mostly I will use it as somewhere to put down my thoughts and help me better understand my ideas and opinions."
 
     
-  [params.socialIcons]
+  [[params.socialIcons]]
   name = 'RSS'
   link = 'https://unresolved-contradictions.co.uk/index.xml'
 
@@ -60,11 +60,11 @@ minifyOutput = true
 
 [markup]
   [markup.goldmark]
-    duplicateResourceFiles = false
+  duplicateResourceFiles = false
     [markup.goldmark.extensions]
-      footnote = true
+    footnote = true
     [markup.goldmark.renderer]
-      footnoteAnchorPrefix = ""
-      footnoteReturnLinkContents = "^"
+    footnoteAnchorPrefix = ""
+    footnoteReturnLinkContents = "^"
 
 
