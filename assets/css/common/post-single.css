@@ -1,0 +1,11 @@
+a:hover {
+    color: var(--carolina_blue);
+}
+
+a.anchor:hover {
+    color: var(--carolina_blue) !important;
+}
+
+svg:hover {
+    color: var(--carolina_blue);
+}
