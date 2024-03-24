@@ -57,23 +57,23 @@
      <g class="Page">
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id3">
-        <rect class="BoundingBox" stroke="none" fill="none" x="-1" y="-1" width="9004" height="21004"/>
-        <path fill="rgb(4,57,94)" stroke="none" d="M 4173,0 L 9001,0 4827,21001 0,21001 4173,0 Z"/>
-        <path fill="none" stroke="rgb(4,57,94)" d="M 4173,0 L 9001,0 4827,21001 0,21001 4173,0 Z"/>
+        <rect class="BoundingBox" stroke="none" fill="none" x="-1" y="-1" width="21003" height="6003"/>
+        <path fill="rgb(46,196,182)" stroke="none" d="M 10500,6000 L 0,6000 0,0 21000,0 21000,6000 10500,6000 Z"/>
+        <path fill="none" stroke="rgb(52,101,164)" d="M 10500,6000 L 0,6000 0,0 21000,0 21000,6000 10500,6000 Z"/>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id4">
-        <rect class="BoundingBox" stroke="none" fill="none" x="5999" y="-1" width="9004" height="21004"/>
-        <path fill="rgb(46,196,182)" stroke="none" d="M 10173,0 L 15001,0 10827,21001 6000,21001 10173,0 Z"/>
-        <path fill="none" stroke="rgb(46,196,182)" d="M 10173,0 L 15001,0 10827,21001 6000,21001 10173,0 Z"/>
+        <rect class="BoundingBox" stroke="none" fill="none" x="-1" y="7499" width="21003" height="6003"/>
+        <path fill="rgb(55,113,142)" stroke="none" d="M 10500,13500 L 0,13500 0,7500 21000,7500 21000,13500 10500,13500 Z"/>
+        <path fill="none" stroke="rgb(52,101,164)" d="M 10500,13500 L 0,13500 0,7500 21000,7500 21000,13500 10500,13500 Z"/>
        </g>
       </g>
       <g class="com.sun.star.drawing.CustomShape">
        <g id="id5">
-        <rect class="BoundingBox" stroke="none" fill="none" x="11999" y="-1" width="9004" height="21004"/>
-        <path fill="rgb(255,210,63)" stroke="none" d="M 16173,0 L 21001,0 16827,21001 12000,21001 16173,0 Z"/>
-        <path fill="none" stroke="rgb(255,210,63)" d="M 16173,0 L 21001,0 16827,21001 12000,21001 16173,0 Z"/>
+        <rect class="BoundingBox" stroke="none" fill="none" x="-1" y="14999" width="21003" height="6003"/>
+        <path fill="rgb(239,111,108)" stroke="none" d="M 10500,21000 L 0,21000 0,15000 21000,15000 21000,21000 10500,21000 Z"/>
+        <path fill="none" stroke="rgb(52,101,164)" d="M 10500,21000 L 0,21000 0,15000 21000,15000 21000,21000 10500,21000 Z"/>
        </g>
       </g>
      </g>
