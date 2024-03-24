@@ -53,3 +53,13 @@ home = [ "HTML", "RSS", "JSON" ]
 disableXML = true
 minifyOutput = true
 
+[markup]
+  [markup.goldmark]
+    duplicateResourceFiles = false
+    [markup.goldmark.extensions]
+      footnote = true
+    [markup.goldmark.renderer]
+      footnoteAnchorPrefix = ""
+      footnoteReturnLinkContents = "^"
+
+
