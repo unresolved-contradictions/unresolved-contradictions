@@ -73,7 +73,10 @@
 {{- else }}
 <link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
 {{- end }}
-
+{{ $palettegen := resources.Get "js/palettegen.js" }}
+{{ $chroma := resources.Get "js/chroma.min.js" }}
+{{ $defaultJS := slice $palettegen $chroma | resources.Concat "js/global.js" }}
+<script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}"></script>
 {{- /* Search */}}
 {{- if (eq .Layout `search`) -}}
 <link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
@@ -88,8 +91,6 @@
 <script defer crossorigin="anonymous" src="{{ $search.RelPermalink }}"></script>
 {{- end }}
 {{- end -}}
-<script defer language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js"></script>
-<script defer language="javascript" type="text/javascript"  src="{{ "/js/palettegen.js" | urlize | relURL }}"></script>
 {{- /* Favicons */}}
 <link rel="icon" href="{{ site.Params.assets.favicon | default "favicon.ico" | absURL }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ site.Params.assets.favicon16x16 | default "favicon-16x16.png" | absURL }}">
