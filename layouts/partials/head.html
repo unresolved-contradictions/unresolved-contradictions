@@ -73,7 +73,7 @@
 {{- else }}
 <link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
 {{- end }}
-{{ $palettegen := resources.Get "js/palettegen.js" }}
+{{ $palettegen := resources.Get "js/palettegen.js" | resources.Minify }}
 {{ $chroma := resources.Get "js/chroma.min.js" }}
 {{ $defaultJS := (slice $chroma $palettegen) | resources.Concat "assets/js/global.js" | fingerprint }}
 <script defer crossorigin="anonymous" src="{{ $defaultJS.RelPermalink }}" integrity="{{ $defaultJS.Data.Integrity }}"></script>
