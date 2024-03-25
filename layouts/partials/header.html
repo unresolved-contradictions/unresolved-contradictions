@@ -39,24 +39,29 @@
 </script>
 {{- end }}
 <script>
-    const colors = Please.make_scheme(
-    {
-      h: 99,
-      s: .5,
-      v: .85
-    },
-    {
-      scheme_type: 'triadic',
-      format: 'hex'
-    }
-  );
+    // Generate colors (as Chroma.js objects)
+    var colors = paletteGenerator.generate(
+      3, // Colors
+      function(color){ // This function filters valid colors
+        var hcl = color.hcl();
+        return hcl[0]>=0 && hcl[0]<=360
+          && hcl[1]>=30 && hcl[1]<=80
+          && hcl[2]>=35 && hcl[2]<=80;
+      },
+      true, // Using Force Vector instead of k-Means
+      50, // Steps (quality)
+      false, // Ultra precision
+      'Default' // Color distance type (colorblindness)
+    );
+    // Sort colors by differenciation first
+    colors = paletteGenerator.diffSort(colors, 'Default');
   
-  document.querySelector(".palette line:nth-child(1)")
-    .style.stroke = colors[0];
-  document.querySelector(".palette line:nth-child(2)")
-    .style.stroke = colors[1];
-  document.querySelector(".palette line:nth-child(3)")
-    .style.stroke = colors[2];
+    document.querySelector(".palette line:nth-child(1)")
+      .style.stroke = colors[0];
+    document.querySelector(".palette line:nth-child(2)")
+      .style.stroke = colors[1];
+    document.querySelector(".palette line:nth-child(3)")
+      .style.stroke = colors[2];
 </script>
 <header class="header">
     <nav class="nav">
