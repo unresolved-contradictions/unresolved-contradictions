@@ -75,7 +75,7 @@
 {{- end }}
 {{ $palettegen := resources.Get "js/palettegen.js" }}
 {{ $chroma := resources.Get "js/chroma.min.js" }}
-{{ $defaultJS := (slice $palettegen $chroma) | resources.Concat "assets/js/global.js" | fingerprint }}
+{{ $defaultJS := (slice $chroma $palettegen) | resources.Concat "assets/js/global.js" | fingerprint }}
 <script defer crossorigin="anonymous" src="{{ $defaultJS.RelPermalink }}" integrity="{{ $defaultJS.Data.Integrity }}"></script>
 {{- /* Search */}}
 {{- if (eq .Layout `search`) -}}
