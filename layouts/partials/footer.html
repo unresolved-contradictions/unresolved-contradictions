@@ -143,13 +143,14 @@
       'Default' // Color distance type (colorblindness)
     );
     // Sort colors by differenciation first
-    colors = paletteGenerator.diffSort(colors, 'Default').hex();
+    //colors = paletteGenerator.diffSort(colors, 'Default').hex();
+    colors = colors.hex();
   
     document.querySelector(".palette line:nth-child(1)")
-      .style.stroke = colors[0];
+      .style.strokeStyle = colors[0];
     document.querySelector(".palette line:nth-child(2)")
-      .style.stroke = colors[1];
+      .style.strokeStyle = colors[1];
     document.querySelector(".palette line:nth-child(3)")
-      .style.stroke = colors[2];
+      .style.strokeStyle = colors[2];
 </script>
 {{- end }}
