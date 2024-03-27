@@ -36,7 +36,6 @@
     vertical-align: middle;
     pointer-events: none;
     transform: translate(0, -10%);
-    border-radius: 6px;
     margin-inline-end: 8px;
 }
 
@@ -104,4 +103,9 @@ body:not(.dark) #sun {
 
 .logo-switches {
     flex-wrap: inherit;
+}
+
+.post-entry:hover {
+	background: rgba(112, 112, 112, 0.1);
+	transition: background 0.25s;
 }

@@ -2,46 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Unresolved Contradictions</title>
-    <link>https://unresolved-contradictions.co.uk/categories/</link>
+    <link>http://localhost:54893/categories/</link>
     <description>Recent content in Categories on Unresolved Contradictions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 20 Oct 2023 23:42:45 +0100</lastBuildDate><atom:link href="https://unresolved-contradictions.co.uk/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Elections</title>
-      <link>https://unresolved-contradictions.co.uk/categories/elections/</link>
-      <pubDate>Fri, 20 Oct 2023 23:42:45 +0100</pubDate>
-      
-      <guid>https://unresolved-contradictions.co.uk/categories/elections/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 05 Nov 2023 18:03:36 +0000</lastBuildDate>
+    <atom:link href="http://localhost:54893/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Politics</title>
-      <link>https://unresolved-contradictions.co.uk/categories/politics/</link>
-      <pubDate>Fri, 20 Oct 2023 23:42:45 +0100</pubDate>
-      
-      <guid>https://unresolved-contradictions.co.uk/categories/politics/</guid>
+      <link>http://localhost:54893/categories/politics/</link>
+      <pubDate>Sun, 05 Nov 2023 18:03:36 +0000</pubDate>
+      <guid>http://localhost:54893/categories/politics/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Protesting</title>
+      <link>http://localhost:54893/categories/protesting/</link>
+      <pubDate>Sun, 05 Nov 2023 18:03:36 +0000</pubDate>
+      <guid>http://localhost:54893/categories/protesting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Protests</title>
+      <link>http://localhost:54893/categories/protests/</link>
+      <pubDate>Sun, 05 Nov 2023 18:03:36 +0000</pubDate>
+      <guid>http://localhost:54893/categories/protests/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Violence</title>
+      <link>http://localhost:54893/categories/violence/</link>
+      <pubDate>Sun, 05 Nov 2023 18:03:36 +0000</pubDate>
+      <guid>http://localhost:54893/categories/violence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elections</title>
+      <link>http://localhost:54893/categories/elections/</link>
+      <pubDate>Fri, 20 Oct 2023 23:42:45 +0100</pubDate>
+      <guid>http://localhost:54893/categories/elections/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Voting</title>
-      <link>https://unresolved-contradictions.co.uk/categories/voting/</link>
+      <link>http://localhost:54893/categories/voting/</link>
       <pubDate>Fri, 20 Oct 2023 23:42:45 +0100</pubDate>
-      
-      <guid>https://unresolved-contradictions.co.uk/categories/voting/</guid>
+      <guid>http://localhost:54893/categories/voting/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Policy</title>
-      <link>https://unresolved-contradictions.co.uk/categories/policy/</link>
+      <link>http://localhost:54893/categories/policy/</link>
       <pubDate>Wed, 18 Oct 2023 17:30:16 +0100</pubDate>
-      
-      <guid>https://unresolved-contradictions.co.uk/categories/policy/</guid>
+      <guid>http://localhost:54893/categories/policy/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

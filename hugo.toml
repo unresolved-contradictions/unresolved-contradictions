@@ -31,6 +31,7 @@ hideSummary = false
 showtoc = false
 tocopen = false
 showFullTextInRss = true
+js = '/js/poline.js'
     
   [params.homeInfoParams]
   Title = "A place for my thoughts."
