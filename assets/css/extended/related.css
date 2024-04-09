@@ -1,0 +1,42 @@
+.related-tags li {
+    font-weight: 500;
+    list-style-type: none;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.related-tags li a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 0 !important;
+    font-size: 18px;
+}
+.related-tags li a::after { 
+    content: "";
+    bottom: 0;
+    display: block;
+    position: absolute;
+    background: none repeat scroll 0 0 transparent;
+    height: 1px;
+    width: 100%;
+    background:var(--primary);
+    transition: bottom 0.25s ease 0s;
+}
+.related-tags li a:hover { 
+    filter: opacity(65%);
+    transition: 0.25s;
+}
+.related-tags li a:hover::after { 
+    bottom: 1px;
+    height: 2px;
+}
+.related-tags li span {
+    color: var(--secondary);
+    font-size: 15px;
+}
+.related-footer {
+    color: var(--secondary);
+    line-height: 1.6em;
+    word-break: keep-all;
+}

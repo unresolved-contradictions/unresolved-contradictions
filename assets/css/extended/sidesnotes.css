@@ -1,0 +1,44 @@
+label.sidenote-number {
+	display: inline;
+	color: var(--color);
+}
+label.sidenote-number:hover {
+	display: inline;
+	color: var(--active-color);
+	text-decoration: underline;
+	transition: all 0.25s;
+}
+.sidenote-number {
+	counter-increment: sidenote-counter;
+}
+.sidenote::before {
+	content: counter(sidenote-counter) " ";
+	font-size: 0.8rem;
+	top: -0.5rem;
+	color: var(--color);
+}
+.sidenote-number::after, .sidenote::before {
+	position: relative;
+	vertical-align: baseline;
+}
+.sidenote-number::after {
+	content: counter(sidenote-counter);
+	font-size: 0.8rem;
+	top: -0.5rem;
+    left: -0.2rem;
+}
+input.margin-toggle {
+	display: none;
+}
+.sidenote {
+	float: right;
+	clear: right;
+	margin-right: -35%;
+	width: 30%;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 0.9rem;
+	line-height: 1.3rem;
+	vertical-align: baseline;
+	position: relative;
+}

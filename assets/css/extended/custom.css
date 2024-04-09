@@ -1,111 +1,37 @@
-.nav {
+body {
+    font-family: Istok;
+    font-size: 18px;
+    line-height: 1.6;
+    word-break: break-word;
+    background: var(--theme);
+    counter-reset: sidenote-counter;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Istok;
+}
+:root {
+    --color: #77B0AA;
+    --active-color: #135D66;
+    --entry-sections: rgb(245,245,245);
+}
+.dark {
+    --entry-sections: rgb(29,30,32);
+}
+.social-icons a:hover {
+    color: var(--color);
+}
+.main {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0px;
+}
+.social-icons a[title='RSS']::after {
+    content: 'Follow my RSS feed!';
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: calc(var(--nav-width) + var(--gap) * 2);
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    line-height: var(--header-height);
-}
-
-.nav a {
-    display: block;
-}
-
-.logo,
-#menu {
-    display: flex;
-    margin: auto var(--gap);
-}
-
-.logo {
-    flex-wrap: inherit;
-}
-
-.logo a:hover {
-    transition: 0.15s;
-    color: grey;
-}
-.logo a {
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.logo a img, .logo a svg {
-    display: inline;
-    vertical-align: middle;
-    pointer-events: none;
-    transform: translate(0, -10%);
-    margin-inline-end: 8px;
-}
-
-button#theme-toggle {
-    font-size: 26px;
-    margin: auto 4px;
-}
-
-body.dark #moon {
-    vertical-align: middle;
-    display: none;
-}
-
-body:not(.dark) #sun {
-    display: none;
-}
-
-#moon:hover {
-    transition: 0.15s;
-    color: deepskyblue;
-}
-
-#sun:hover {
-    transition: 0.15s;
-    color: gold;
-}
-
-#menu {
-    list-style: none;
-    word-break: keep-all;
-    overflow-x: auto;
-    white-space: nowrap;
-}
-
-#menu li + li {
-    margin-inline-start: var(--gap);
-}
-
-#menu a {
-    font-size: 16px;
-}
-
-#menu .active {
-    font-weight: 500;
-    border-bottom: 2px solid currentColor;
-}
-
-.lang-switch li,
-.lang-switch ul,
-.logo-switches {
-    display: inline-flex;
-    margin: auto 4px;
-}
-
-.lang-switch {
-    display: flex;
-    flex-wrap: inherit;
-}
-
-.lang-switch a {
-    margin: auto 3px;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.logo-switches {
-    flex-wrap: inherit;
-}
-
-.post-entry:hover {
-	background: rgba(112, 112, 112, 0.1);
-	transition: background 0.25s;
+    align-items: center;
+    padding-left: 5px;
 }

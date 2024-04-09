@@ -1,0 +1,24 @@
+{ 
+    "links": [
+        {
+        "name": "Blogs",
+        "content": [ 
+            {"link": "[Pluralistic](https://pluralistic.net/) ", "description": "Pluralistic is Cory Doctorow's daily blog. One blog that I read almost as soon as it hits my RSS feed.", "date": "2024-04-09"},
+            {"link": "[Maggie Appleton's site](https://maggieappleton.com/)", "description": "Maggie is a designer, anthropologist and developer. She writes about just about anything.", "date": "2024-04-09"},
+            {"link": "[Brain Baking](https://brainbaking.com/)", "description": "Wouter is a baker, programmer, writer and teacher. He blogs about a lot of different things.", "date": "2024-04-09"}
+        ]},
+        {
+        "name": "Magazines",
+        "content": [
+            {"link": "[Works in Progress](https://worksinprogress.co/)", "description": "Works in Progress release a quaterly magazine, which in their own words, features 'new and underrated ideas to improve the world'", "date": "2024-04-09"}
+        ]},
+        {
+        "name": "Articles",
+        "content": [
+            {"link": "[Why Britain doesnt build | Works in Progress](https://worksinprogress.co/issue/why-britain-doesnt-build/)", "description": "A fascinating article about the history of Britain's housing policy.", "date": "2023-09-29"},
+            {"link": "[Tiktok's enshittification | Pluralistic](https://pluralistic.net/2023/01/21/potemkin-ai/)", "description": "An article that managed to sum up a lot of my disjointed thoughts on modern capitalism and big tech.", "date": "2023-10-04"},
+            {"link": "[Why we didn't get a malaria vaccine sooner | Works in Progress](https://worksinprogress.co/issue/why-we-didnt-get-a-malaria-vaccine-sooner/)", "description": "A long read detailing the economics of vaccine production and what alternative funding options exist.", "date": "2023-10-09"},
+            {"link": "[How the Blog Broke the Web | Stacking the Bricks](https://stackingthebricks.com/how-blogs-broke-the-web/)", "description": "Amy Hoy breaks down the modern idea of blogs and details what we lost by following this route.", "date":"2024-04-09"}
+        ]
+        }]
+    }

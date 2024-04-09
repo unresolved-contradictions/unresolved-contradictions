@@ -1,0 +1,52 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>
+    {{ .Title }}
+    {{- if (.Param "ShowRssButtonInSectionTermList") }}
+      {{- $rss := (.OutputFormats.Get "rss") }}
+      {{- if (eq .Kind `page`) }}
+      {{- $rss = (.Parent.OutputFormats.Get "rss") }}
+      {{- end }}
+    {{- with $rss }}
+    <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+    {{- end }}
+  </h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+{{ range .Site.Data.links.links }}
+<div class="archive-year">
+  <div class="archive-month">
+    <h3 class="archive-month-header">{{ .name | title }}<sup class="archive-count">&nbsp;&nbsp;{{ .content | len }}</sup></h3>
+    <div class="archive-posts">
+      {{ range .content }}
+      <div class="archive-entry">
+        <h3 class="archive-entry-title entry-hint-parent">
+          {{ .link | markdownify }}
+        </h3>
+        <div class="archive-meta">
+          {{ .description | markdownify }}
+        </div>
+        <div class="archive-meta">
+          Added: {{ .date | time.Format ":date_medium" }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{- end }}
+{{ end }}
+{{- end }}
+{{/* end main */}}

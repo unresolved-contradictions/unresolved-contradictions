@@ -2,48 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:54893/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2023-11-05T18:03:36+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54893/posts/political-engagement/</loc>
+    <loc>http://localhost:1313/essays/</loc>
     <lastmod>2023-11-05T18:03:36+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54893/categories/politics/</loc>
+    <loc>http://localhost:1313/essays/political-engagement/</loc>
     <lastmod>2023-11-05T18:03:36+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54893/posts/</loc>
+    <loc>http://localhost:1313/essays/politics/</loc>
     <lastmod>2023-11-05T18:03:36+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54893/categories/protesting/</loc>
+    <loc>http://localhost:1313/categories/politics/</loc>
     <lastmod>2023-11-05T18:03:36+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54893/categories/protests/</loc>
+    <loc>http://localhost:1313/essays/protests/</loc>
     <lastmod>2023-11-05T18:03:36+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54893/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2023-11-05T18:03:36+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54893/categories/violence/</loc>
+    <loc>http://localhost:1313/essays/violence/</loc>
     <lastmod>2023-11-05T18:03:36+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54893/posts/by-election-woes/</loc>
+    <loc>http://localhost:1313/notes/by-election-woes/</loc>
     <lastmod>2023-10-20T23:42:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:54893/categories/elections/</loc>
+    <loc>http://localhost:1313/notes/elections/</loc>
     <lastmod>2023-10-20T23:42:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:54893/categories/voting/</loc>
+    <loc>http://localhost:1313/notes/</loc>
     <lastmod>2023-10-20T23:42:45+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:54893/search/</loc>
+    <loc>http://localhost:1313/notes/politics/</loc>
+    <lastmod>2023-10-20T23:42:45+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/notes/voting/</loc>
+    <lastmod>2023-10-20T23:42:45+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2023-10-19T14:38:31+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:54893/categories/policy/</loc>
+    <loc>http://localhost:1313/essays/economics/</loc>
     <lastmod>2023-10-18T17:30:16+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:54893/posts/delivery-problem/</loc>
+    <loc>http://localhost:1313/essays/policy/</loc>
     <lastmod>2023-10-18T17:30:16+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:54893/tags/</loc>
+    <loc>http://localhost:1313/essays/delivery-problem/</loc>
+    <lastmod>2023-10-18T17:30:16+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/links/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

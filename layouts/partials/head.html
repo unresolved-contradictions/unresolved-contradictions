@@ -73,8 +73,6 @@
 {{- else }}
 <link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
 {{- end }}
-{{ $resource := resources.Get "/js/polineLight.js" | resources.ExecuteAsTemplate "/js/polineLight.js" . | resources.Minify }}
-<script crossorigin="anonymous" src="{{ $resource.RelPermalink }}" type="module"></script>
 {{- /* Search */}}
 {{- if (eq .Layout `search`) -}}
 <link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">

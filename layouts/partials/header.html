@@ -2,8 +2,6 @@
 {{- if (not site.Params.disableThemeToggle) }}
 {{- /* theme is light */}}
 {{- if (eq site.Params.defaultTheme "light") }}
-{{ $resource := resources.Get "/js/polineLight.js" | resources.ExecuteAsTemplate "/js/polineLight.js" . | resources.Minify }}
-<script crossorigin="anonymous" src="{{ $resource.RelPermalink }}" type="module"></script>
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -12,11 +10,9 @@
 </script>
 {{- /* theme is dark */}}
 {{- else if (eq site.Params.defaultTheme "dark") }}
-{{ $resource := resources.Get "/js/polineDark.js" | resources.ExecuteAsTemplate "/js/polineDark.js" . | resources.Minify }}
-<script crossorigin="anonymous" src="{{ $resource.RelPermalink }}" type="module"></script>
 <script>
     if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
+        document.body.classList.remove('dark');
     }
 
 </script>
@@ -47,10 +43,10 @@
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 35 35" stroke-width="10" class="palette">
-                    <line x2="35" x1="0" y2="5" y1="5"></line>
-                    <line x2="35" x1="0" y1="30" y2="30"></line>
-                    <line x1="0" x2="35" y1="16" y2="19"></line>
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" stroke-width="10" class="logo-svg">
+                    <line x1="0" y1="5" x2="35" y2="5" stroke="#003C43"></line>
+                    <line x1="0" y1="16" x2="35" y2="19" stroke="#135D66" class="svg-mid"></line>
+                    <line x1="0" y1="30" x2="35" y2="30" stroke="#77B0AA"></line>
                 </svg>
                 {{- $label_text -}}
             </a>

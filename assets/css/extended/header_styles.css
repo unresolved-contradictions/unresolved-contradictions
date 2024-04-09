@@ -1,0 +1,113 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: calc(var(--nav-width) + var(--gap) * 2);
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    line-height: var(--header-height);
+    font-family: Istok;
+}
+.nav a {
+    display: block;
+}
+.logo {
+    display: flex;
+    margin: auto var(--gap);
+    flex-wrap: inherit;
+}
+.logo a :not(.logo-svg):hover {
+    transition: 0.25s;
+    filter: opacity(65%);
+}
+.logo a {
+    font-size: 24px;
+    font-weight: 700;
+}
+.logo a img, .logo a svg {
+    display: inline;
+    vertical-align: middle;
+    pointer-events: none;
+    transform: translate(0, -10%);
+    margin-inline-end: 8px;
+}
+.logo:hover .svg-mid, .logo:focus .svg-mid {
+    transform: rotate(-4.9deg);
+    transform-origin: center;
+    transition: transform ease .25s;
+}
+.logo-switches {
+    flex-wrap: inherit;
+}
+button#theme-toggle {
+    font-size: 26px;
+    margin: auto 4px;
+}
+body.dark #moon {
+    vertical-align: middle;
+    display: none;
+}
+body:not(.dark) #sun {
+    display: none;
+}
+#moon:hover {
+    transition: 0.25s;
+    color: deepskyblue;
+}
+#sun:hover {
+    transition: 0.25s;
+    color: gold;
+}
+.menu {
+    display: flex;
+    margin: auto var(--gap);
+    list-style: none;
+    word-break: keep-all;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.menu li { 
+    position: relative; 
+    line-height: 1.6;
+} 
+.menu li + li {
+    margin-inline-start: var(--gap);
+}
+.menu a {
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.menu a::after { 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 2px;
+    width: 0;
+    background:var(--color);
+    transition: width 0.25s ease 0s, left 0.25s ease 0s;
+}
+.menu a:hover::after { 
+    width: 100%; 
+    left: 0; 
+}
+.menu .active {
+    border-bottom: 0px !important;
+}
+.menu .active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 2px;
+    width: 100%;
+    background:var(--active-color);
+}
+#menu-trigger {
+    display: none;
+}

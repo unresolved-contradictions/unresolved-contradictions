@@ -12,32 +12,50 @@ post = "/:year/:title/"
 
 [params]
 title = 'Unresolved Contradictions'
-AuthorName = 'Unresolved Contradictions'
+author.name = 'Charlie'
+author.link = 'https://unresolved-contradictions.co.uk'
+author.email = 'discuss@unresolved-contradictions.co.uk'
 description = 'My thoughts on the world.'
 keywords = ['Blog, politics, economics']
 defaultTheme = 'auto'
 disableThemeToggle = false
 ShowReadingTime = true
-ShowPostNavLinks = true
+ShowPostNavLinks = false
 ShowBreadCrumbs = true
 ShowWordCount = true
 ShowRssButtonInSectionTermList = true
+ShowRelated = true
 UseHugoToc = true
 disableSpecial1stPost = false
 disableScrollToTop = false
 comments = false
 hidemeta = false
 hideSummary = false
+hideAuthor = true
 showtoc = false
 tocopen = false
 showFullTextInRss = true
-js = '/js/poline.js'
+mainSections = ["essays", "notes", "links"]
     
   [params.homeInfoParams]
   Title = "A place for my thoughts."
-  Content = "This blog will mostly have my ideas and thoughts about the social world, politics, economics and philosophy. Mostly I will use it as somewhere to put down my thoughts and help me better understand my ideas and opinions."
+  Content = """
+  This place will mostly have my ideas and thoughts about the social world, politics, economics and philosophy. Mostly I will use it as somewhere to think publicly and help me better understand my ideas and opinions.
+  
 
-    
+  I like the concept of digital gardens, somewhere for thoughts and ideas to be curated, moving away from traditional blog style cronological posts. If you want to know more about the concept, head over to my [about](/about) page. I have a [list](/links) of curated links from various places around the internet, interesting articles, blogs or whatever.
+  
+  I'd love to hear your ideas and opinions about anything and everything on this site. Contact me through the various means below, and if you're interested in what I am writing then feel free to follow my RSS feed."""
+
+  [[params.socialIcons]]
+  name = 'Mastodon'
+  link = 'https://mastodon.social/@charltonburton'
+  [[params.socialIcons]]
+  name = 'Github'
+  link = 'https://github.com/sailseaplymouth'
+  [[params.socialIcons]]
+  name = 'email'
+  link = 'mailto:discuss@unresolved-contradictions.co.uk'
   [[params.socialIcons]]
   name = 'RSS'
   link = 'https://unresolved-contradictions.co.uk/index.xml'
@@ -55,26 +73,56 @@ js = '/js/poline.js'
   icon = '/logo.svg'
   iconHeight = 35
 
-[menu]
-[[menu.main]]
-name = 'Search'
-pageRef = '/search'
-weight = 10
-
-[outputs]
-home = [ "HTML", "RSS", "JSON" ]
+[taxonomies]
+category = 'categories'
+tag = 'tags'
+note = 'notes'
+essay = 'essays'
 
 [minify]
 disableXML = true
 minifyOutput = true
 
-[markup]
-  [markup.goldmark]
-  duplicateResourceFiles = false
-    [markup.goldmark.extensions]
-    footnote = true
-    [markup.goldmark.renderer]
-    footnoteAnchorPrefix = ""
-    footnoteReturnLinkContents = "^"
+[menus]
+[[menus.main]]
+title = 'Search'
+pre = '''<svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>'''
+pageRef = '/search'
+weight = 50
+[[menus.main]]
+name = 'Notes'
+pageRef = '/notes'
+weight = 10
+[[menus.main]]
+name = 'Essays'
+pageRef = '/essays'
+weight = 20
+[[menus.main]]
+name = 'Links'
+pageRef = '/links'
+weight = 30
+[[menus.main]]
+name = 'About'
+pageRef = '/about'
+weight = '40'
 
+[related]
+  includeNewer = true
+  threshold = 85
+  toLower = false
 
+  [[related.indices]]
+  name = "notes"
+  weight = 40
+
+  [[related.indices]]
+  name = "essays"
+  weight = 40
+
+  [[related.indices]]
+  name = "date"
+  weight = 10

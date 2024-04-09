@@ -1,0 +1,19 @@
+.archive-year {
+    margin-top: var(--gap);
+}
+.archive-month-header {
+    margin: 0;
+}
+.archive-month {
+    padding: 0;
+}
+.archive-entry {
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+.archive-entry-tile {
+    margin: 0;
+}
+.archive-posts {
+    margin-bottom: calc(var(--gap) - 5px);
+}
