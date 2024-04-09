@@ -57,6 +57,8 @@
   </url><url>
     <loc>http://localhost:1313/links/</loc>
   </url><url>
+    <loc>http://localhost:1313/privacy/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
