@@ -2,4 +2,4 @@
 {{ $id := printf "%d" $.Ordinal }}
 <label class="sidenote-number" for="{{ $id }}"></label>
 <input type="checkbox" id="{{ $id }}" class="margin-toggle">
-<span class="sidenote">{{ $val | markdownify }}</span>
+<span class="sidenote">{{ $val }}</span>
