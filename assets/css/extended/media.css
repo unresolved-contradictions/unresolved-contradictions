@@ -41,6 +41,11 @@
     .footer {
         padding: calc((var(--footer-height) - var(--gap) - 10px) / 2) var(--gap);
     }
+
+    /* meta sections */
+    .notes-meta {
+        margin-left: 0 !important;
+    }
 }
 
 /* footer */
