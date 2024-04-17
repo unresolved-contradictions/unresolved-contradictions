@@ -1,12 +1,12 @@
 +++
-type = 'notes'
 categories = ['Politics']
-notes = ['politics','elections','voting']
-title = 'By Election Woes'
-date = 2023-10-20T23:42:45+01:00
+date = '2023-10-20T23:42:45+01:00'
 description = 'Greg Hands needs a reality check, the Tories are heading for failure.'
+notes = ['politics', 'elections', 'voting']
 slug = 'by-election-woes'
 stage = 'finished'
+title = 'By Election Woes'
+type = 'notes'
 +++
 
 Doing what he does best and avoiding his responsibilities, Rishi Sunak managed to be busy on the day of a double by-election contesting two Tory safe seats yesterday. Perhaps he saw the writing on the wall, but the reality is still a shock. Labour managed to achieve the single greatest turnover of a majority in a by-election since 1945 in Mid Bedfordshire, previously held by Nadine 'Dosser' Dorries, while in Tamworth a similarly impressive 20,000 vote majority was overturned. The bad news continues for the Tories. I doubt any Tory MP will be particularly confident about keeping their job in next year's election.

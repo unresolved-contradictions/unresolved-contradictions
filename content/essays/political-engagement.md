@@ -1,10 +1,10 @@
 +++
 categories = ['politics']
-essays = ['politics','violence','protests']
-title = 'Is Violence the Answer?'
-date = 2023-11-05T18:03:36Z
+date = '2023-11-05T18:03:36Z'
 description = 'Was the toppling of the statue of Edward Colston a violent act, and what did it achieve?'
+essays = ['politics', 'violence', 'protests']
 slug = 'political-engagement'
+title = 'Is Violence the Answer?'
 +++
 
 I recently had an interesting conversation with a colleague at work. We were discussing the toppling of the statue of slave trader Edward Colston in Bristol in 2020 and the circumstances surrounding it. My colleague was sympathetic to the overall aims of the protestors, but believes that politics should be non-violent, and that by crossing the line from a peaceful protest, the protestors muddied and delegitimised their own aims. This view of politics is, in my mind, prohibitively restrictive and narrow.

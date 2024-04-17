@@ -1,7 +1,7 @@
 +++
-title = 'About'
 draft = false
 layout = 'about'
+title = 'About'
 +++
 
 Welcome to my little corner of the internet. In recent years I've been encouraged to write my thoughts and ideas down somewhere; This will, hopefully, become that somewhere. My interests vary, but I am mostly interested in politics, economics, tech and privacy. 

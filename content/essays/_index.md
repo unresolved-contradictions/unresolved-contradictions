@@ -1,6 +1,6 @@
 +++
-title = 'Essays'
+description = 'Longer form writing for when ideas have had some time to develop.'
 draft = false
 layout = 'essays'
-description = 'Longer form writing for when ideas have had some time to develop.'
+title = 'Essays'
 +++

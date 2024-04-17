@@ -1,10 +1,10 @@
 +++
 categories = ['politics']
-essays = ['policy','economics']
-title = """The UK's Delivery Problem"""
-date = 2023-10-18T17:30:16+01:00
+date = '2023-10-18T17:30:16+01:00'
 description = 'Why does it feel like nothing seems to happen despite what politicians tell us?'
+essays = ['policy', 'economics']
 slug = 'delivery-problem'
+title = "The UK's Delivery Problem"
 +++
 
 I saw a comment recently on an article about tax loopholes in the UK explaining that tax reform is dull for the electorate and boring for governments to implement so that's why it won't be dealt with any time soon. This kind of view is symptomatic of a host of the issues with politics in the UK and one that we've been dealing with for decades.
