@@ -24,6 +24,12 @@
         min-height: 260px;
     }
 
+    /* entry-header */
+
+    .entry-header {
+        display: unset;
+    }
+
     .notes-wrapper {
         flex-direction: column;
     }
@@ -45,6 +51,16 @@
     /* meta sections */
     .notes-meta {
         margin-left: 0 !important;
+    }
+
+    /* related section */
+    .related-tags li {
+        font-weight: 500;
+        list-style-type: none;
+        padding: 5px 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
     }
 }
 
