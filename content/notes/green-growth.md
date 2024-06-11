@@ -4,6 +4,7 @@ date = '2024-04-09T20:31:00+01:00'
 description = 'As the climate crisis worsens, we are told our route to social and economic safety is via green growth, but how realistic is this?'
 draft = 'false'
 notes = ['climate crisis', 'GDP', 'growth', 'economy']
+keywords = ['climate crisis', 'GDP', 'growth', 'economy']
 slug = 'green-growth'
 stage = 'progress'
 title = 'The myth of green growth'

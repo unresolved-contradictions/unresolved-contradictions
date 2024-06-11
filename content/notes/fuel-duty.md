@@ -4,6 +4,7 @@ date = '2024-04-17T16:32:00+01:00'
 description = 'Why does the government continue to freeze fuel duty when it could be ring-fenced for active travel and public transport.'
 draft = 'false'
 notes = ['politics', 'economics', 'driving']
+keywords = ['politics', 'economics', 'driving']
 slug = 'fuel-duty'
 stage = 'progress'
 title = 'Fuel Duty'

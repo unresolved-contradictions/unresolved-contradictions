@@ -3,6 +3,7 @@ categories = ['politics']
 date = '2024-05-07T20:41:16+01:00'
 description = 'What is happening to councils around the country, why are they going bankrupt?'
 essays = ['policy', 'economics', 'councils']
+keywords = ['policy', 'economics', 'councils']
 slug = 'council-funding'
 title = "The UK's council funding crisis"
 +++

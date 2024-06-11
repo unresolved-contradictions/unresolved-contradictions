@@ -3,6 +3,7 @@ categories = ['Politics']
 date = '2024-05-16T11:52:45+01:00'
 description = 'Universities across the US have failed their students.'
 notes = ['politics', 'protest']
+keywords = ['politics', 'protest']
 slug = 'university-protests'
 stage = 'progress'
 title = 'Campus Protests.'

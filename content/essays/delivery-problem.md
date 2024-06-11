@@ -3,6 +3,7 @@ categories = ['politics']
 date = '2023-10-18T17:30:16+01:00'
 description = 'Why does it feel like nothing seems to happen despite what politicians tell us?'
 essays = ['policy', 'economics']
+keywords = ['policy', 'economics']
 slug = 'delivery-problem'
 title = "The UK's Delivery Problem"
 +++

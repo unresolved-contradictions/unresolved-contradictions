@@ -3,6 +3,7 @@ categories = ['politics']
 date = '2023-11-05T18:03:36Z'
 description = 'Was the toppling of the statue of Edward Colston a violent act, and what did it achieve?'
 essays = ['politics', 'violence', 'protests']
+keywords = ['politics', 'violence', 'protests']
 slug = 'political-engagement'
 title = 'Is Violence the Answer?'
 +++

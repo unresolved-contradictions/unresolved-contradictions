@@ -3,6 +3,7 @@ categories = ['Politics']
 date = '2023-10-20T23:42:45+01:00'
 description = 'Greg Hands needs a reality check, the Tories are heading for failure.'
 notes = ['politics', 'elections', 'voting']
+keywords = ['politics', 'elections', 'voting']
 slug = 'by-election-woes'
 stage = 'finished'
 title = 'By Election Woes'
