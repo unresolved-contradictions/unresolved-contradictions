@@ -49,16 +49,16 @@ mainSections = ["essays", "notes", "links"]
 
   [[params.socialIcons]]
   name = 'Mastodon'
-  link = 'https://mastodon.social/@contradiction'
+  link = ['https://mastodon.social/@contradiction']
   [[params.socialIcons]]
   name = 'Github'
-  link = 'https://github.com/unresolved-contradictions'
+  link = ['https://github.com/unresolved-contradictions']
   [[params.socialIcons]]
   name = 'email'
-  link = 'mailto:discuss@unresolved-contradictions.co.uk'
+  link = ['mailto:discuss@unresolved-contradictions.co.uk']
   [[params.socialIcons]]
   name = 'RSS'
-  link = 'https://unresolved-contradictions.co.uk/index.xml'
+  link = ['https://unresolved-contradictions.co.uk/index.xml']
 
   [params.assets]
   disableHLJS = true
