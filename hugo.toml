@@ -48,17 +48,17 @@ mainSections = ["essays", "notes", "links"]
   I'd love to hear your ideas and opinions about anything and everything on this site. Contact me through the various means below, and if you're interested in what I am writing then feel free to follow my RSS feed."""
 
   [[params.socialIcons]]
-  name = 'Mastodon'
-  link = 'https://mastodon.social/@contradiction'
+  name = "Mastodon"
+  url = "https://mastodon.social/@contradiction"
   [[params.socialIcons]]
-  name = 'Github'
-  link = 'https://github.com/unresolved-contradictions'
+  name = "Github"
+  url = "https://github.com/unresolved-contradictions"
   [[params.socialIcons]]
-  name = 'email'
-  link = 'mailto:discuss@unresolved-contradictions.co.uk'
+  name = "email"
+  url = "mailto:discuss@unresolved-contradictions.co.uk"
   [[params.socialIcons]]
-  name = 'RSS'
-  link = 'https://unresolved-contradictions.co.uk/index.xml'
+  name = "RSS"
+  url = 'https://unresolved-contradictions.co.uk/index.xml'
 
   [params.assets]
   disableHLJS = true
