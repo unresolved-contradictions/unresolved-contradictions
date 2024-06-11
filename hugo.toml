@@ -49,10 +49,10 @@ mainSections = ["essays", "notes", "links"]
 
   [[params.socialIcons]]
   name = 'Mastodon'
-  link = 'https://mastodon.social/@charltonburton'
+  link = 'https://mastodon.social/@contradiction'
   [[params.socialIcons]]
   name = 'Github'
-  link = 'https://github.com/sailseaplymouth'
+  link = 'https://github.com/unresolved-contradictions'
   [[params.socialIcons]]
   name = 'email'
   link = 'mailto:discuss@unresolved-contradictions.co.uk'
