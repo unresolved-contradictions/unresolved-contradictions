@@ -1,9 +1,8 @@
 +++
-categories = ['housing']
+categories = ['politics', 'economics', 'housing']
 title = 'Reforming the housing market'
 date = 2024-06-10T05:17:59+01:00
 description = 'Without drastic change to the housing market we are set to lock future generations in the private rental sector.'
-essays = ['politics', 'economics', 'housing']
 keywords = ['politics', 'economics', 'housing']
 slug = 'housing-reform'
 +++
