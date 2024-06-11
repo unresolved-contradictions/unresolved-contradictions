@@ -35,7 +35,7 @@ hideAuthor = true
 showtoc = false
 tocopen = false
 showFullTextInRss = true
-images = 'assets/images'
+images = 'images/thumbnail.png'
 mainSections = ["essays", "notes", "links"]
     
   [params.homeInfoParams]
