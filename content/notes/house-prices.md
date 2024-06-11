@@ -1,13 +1,11 @@
 +++
-categories = ['Housing']
+categories = ['housing', 'house prices', 'economics', 'housing crisis']
 date = '2024-04-09T20:31:00+01:00'
 description = 'Housing wealth in the UK has increased rampantly for decades now, so what determines house prices?'
 draft = 'true'
-notes = ['housing', 'house prices', 'economics', 'housing crisis']
-slug = 'house-princes'
+slug = 'house-prices'
 stage = 'draft'
 title = 'What affects house prices?'
-type = 'notes'
 +++
 
 Despite house prices falling last year, owners that sold in 2023 netted an average of [£102,000](https://www.theguardian.com/money/2024/jan/22/homeowners-england-wales-sold-last-year-banked-100k-profit-average), or around 48% more than they paid for it. 

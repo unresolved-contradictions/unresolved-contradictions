@@ -1,13 +1,11 @@
 +++
-categories = ['Politics']
+categories = ['politics', 'protest']
 date = '2024-05-16T11:52:45+01:00'
 description = 'Universities across the US have failed their students.'
-notes = ['politics', 'protest']
 keywords = ['politics', 'protest']
 slug = 'university-protests'
 stage = 'progress'
 title = 'Campus Protests.'
-type = 'notes'
 +++
 
 The anti-genocide{{< fn "The fact that such a thing as an anti-genocide protest exists is a horrifying prospect. That should be a default position. There is never a justification for genocide." >}} protests that have swept through US universities in recent months have perfectly encapsulated the weakness in the position of the US establishment.

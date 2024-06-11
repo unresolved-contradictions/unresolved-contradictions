@@ -1,14 +1,11 @@
 +++
-categories = ['Economics']
+categories = ['economics', 'climate crisis', 'GDP', 'growth']
 date = '2024-04-09T20:31:00+01:00'
 description = 'As the climate crisis worsens, we are told our route to social and economic safety is via green growth, but how realistic is this?'
-draft = 'false'
-notes = ['climate crisis', 'GDP', 'growth', 'economy']
 keywords = ['climate crisis', 'GDP', 'growth', 'economy']
 slug = 'green-growth'
 stage = 'progress'
 title = 'The myth of green growth'
-type = 'notes'
 +++
 
 At a time where the realities of the climate crisis are becoming more and more obvious and with ever more dire warnings being published by the IPCC, something needs to be done to ensure the lasting survival of our planet.
