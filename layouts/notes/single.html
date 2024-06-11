@@ -21,7 +21,7 @@
     {{- end }}
     <div class="meta-section">
       <div class="notes-tags">
-        {{ $taxonomy := "notes" }}
+        {{ $taxonomy := "categories" }}
         {{ with .GetTerms $taxonomy }}
         <p>
           {{ range $k, $_ := . -}}

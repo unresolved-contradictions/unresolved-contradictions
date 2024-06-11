@@ -117,13 +117,5 @@ weight = '40'
   toLower = false
 
   [[related.indices]]
-  name = "notes"
+  name = "keywords"
   weight = 40
-
-  [[related.indices]]
-  name = "essays"
-  weight = 40
-
-  [[related.indices]]
-  name = "date"
-  weight = 10
