@@ -1,5 +1,5 @@
-{{ with index .Site.Data.books.books }}
 {{ $val := .Get 0 }}
+{{ with index .Site.Data.books.books }}
 {{ range $val }}
 <div class="archive-year">
   <div class="archive-month">
