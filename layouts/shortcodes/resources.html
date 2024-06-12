@@ -1,4 +1,4 @@
-{{ $data := index $.Site.Data.books.books .Get 0 }}
+{{ $data := index .Site.Data.books.books (.Get 0) }}
 {{ range $data }}
 <div class="archive-year">
   <div class="archive-month">
