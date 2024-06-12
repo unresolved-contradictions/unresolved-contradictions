@@ -60,11 +60,12 @@ The housing crisis does not have a simple solution, and anyone that tries to say
 
 We must rethink our housing market and understand the damage that landlords are doing to it when they are left to run free. Housing is a human right, and we should limit the ways in which it can be exploited for gain. Unfortunately, given how much of the nation's wealth is tied up in housing, any party contemplating implementing changes of this scale would be doing so with their own demise in mind—it would be political suicide. Given the short-termism in our political landscape, we won't see anything like this anytime soon; but hopefully we can see the end of the rampant inflation of house prices and start work to control the unruly private landlordism that we have come to accept.
 
-## Updates
-With a general election just around the corner, parties are releasing their housing plans in their manifestos. I'm happy to see some positive suggestions from the [Green Party](https://www.theguardian.com/politics/article/2024/jun/12/greens-hope-to-win-renters-votes-with-housing-commitments-in-election-manifesto) including rent controls, and end to right-to-buy, and expanding on compulsory purchase for local authorities.
+**Updates:** With a general election just around the corner, parties are releasing their housing plans in their manifestos. I'm happy to see some positive suggestions from the [Green Party](https://www.theguardian.com/politics/article/2024/jun/12/greens-hope-to-win-renters-votes-with-housing-commitments-in-election-manifesto) including rent controls, and end to right-to-buy, and expanding on compulsory purchase for local authorities.
 
 The [Tory](https://theconversation.com/conservative-manifesto-puts-home-ownership-up-top-but-ignores-housing-affordability-232048) suggestions are a little less ambitious. They are promising to build 1.6m new homes, with no indication of planning reform to allow that kind of scale. They intend to expand the Help to Buy scheme, which we know just hikes prices. There is no indication of their intent to end Right to Buy or increase funding for new social housing.
 
 The [Lib Dem](https://www.libdems.org.uk/manifesto) offering gives some hope that the consensus among other parties is changing. Alongside planning reform and incentives for communities to allow building, they intend to strengthen rental property standards and roll out a warm-home improvement scheme.
 
 We've not yet heard from the Labour party, but given the rumblings in recent weeks that they intend to extend the Help to Buy scheme, I am not holding out too much hope.
+
+{{< resources data="housing-reform" >}}
