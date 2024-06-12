@@ -1,16 +1,16 @@
 {{ $val := .Get 0 }}
-{{ with .Site.Data.books.books $val }}
+{{ with index .Site.Data.books.books $val }}
 <div class="archive-year">
   <div class="archive-month">
-    <h3 class="archive-month-header">Resources<sup class="archive-count">&nbsp;&nbsp;{{ .content | len }}</sup></h3>
+    <h3 class="archive-month-header">Resources<sup class="archive-count">&nbsp;&nbsp;{{ $.content | len }}</sup></h3>
     <div class="archive-posts">
-      {{ range .content }}
+      {{ range $.content }}
       <div class="archive-entry">
         <h3 class="archive-entry-title entry-hint-parent">
-          {{ .title | markdownify }}
+          {{ $.title | markdownify }}
         </h3>
         <div class="archive-meta">
-          {{ .author | markdownify }}
+          {{ $.author | markdownify }}
         </div>
       </div>
       {{ end }}
