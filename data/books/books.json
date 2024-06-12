@@ -1,7 +1,6 @@
 { 
-    "books": [
+    "housing-reform": [
         {
-        "name": "housing-reform",
         "content": [ 
             {"title": "Against Landlords: How to Solve the Housing Crisis", "author": "Nick Bano"},
             {"title": "Municipal Dreams: the Rise and Fall of Council Housings", "author": "John Boughton"},

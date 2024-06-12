@@ -1,8 +1,7 @@
-{{ $data := index site.Data.books.books .Get 0 }}
-{{ range $data }}
+{{ with index site.Data.books (.Get 0) }}
 <div class="archive-year">
   <div class="archive-month">
-    <h3 class="archive-month-header">{{ .name | title }}<sup class="archive-count">&nbsp;&nbsp;{{ .content | len }}</sup></h3>
+    <h3 class="archive-month-header">Resources<sup class="archive-count">&nbsp;&nbsp;{{ .content | len }}</sup></h3>
     <div class="archive-posts">
       {{ range .content }}
       <div class="archive-entry">
@@ -17,4 +16,4 @@
     </div>
   </div>
 </div>
-{{- end }}
+{{ end }}
