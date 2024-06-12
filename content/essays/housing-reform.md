@@ -68,6 +68,4 @@ The [Lib Dem](https://www.libdems.org.uk/manifesto) offering gives some hope tha
 
 We've not yet heard from the Labour party, but given the rumblings in recent weeks that they intend to extend the Help to Buy scheme, I am not holding out too much hope.
 
-{{ range $.Site.Data.books.books.housing-reform }}
-  {{ partial "resources.html" . }}
-{{ end }}
+{{< books "housing-reform" >}}
