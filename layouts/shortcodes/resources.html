@@ -1,4 +1,4 @@
-{{ with index .site.Data.books (.Get 0) }}
+{{ with index .site.Data.books.books (.Get 0) }}
 <div class="archive-year">
   <div class="archive-month">
     <h3 class="archive-month-header">Resources<sup class="archive-count">&nbsp;&nbsp;{{ .content | len }}</sup></h3>
