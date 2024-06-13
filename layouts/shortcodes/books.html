@@ -1,4 +1,5 @@
-{{ $val := .Get 0 }}
-{{ range .Site.Data.books.books ($val) }}
-  {{ partial "resources.html" . }}
+{{ with index site.Data.books.books (.Get 0) }}
+  {{ range .content }}
+    {{ . }}
+  {{ end }}
 {{ end }}
