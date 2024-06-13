@@ -1,11 +1,8 @@
-{{ with $file := .Site.Data.books .Get 0 }}
-  {{ with resources.Get $file }}
-    {{ range .content }}
+{{ $data := index .Site.Data.books (.Get 0) }}
+{{ with $data }}
+  {{ range $data }}
     <div>
         {{ .title }}{{ .author }}
     </div>
-    {{ end }}
-  {{ end }}  
+  {{ end }}
 {{ end }}
-
-
