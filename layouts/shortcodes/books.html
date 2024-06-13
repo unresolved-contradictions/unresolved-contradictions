@@ -1,4 +1,4 @@
-{{ with index site.Data.books.books (.Get 0) }}
+{{ with index .Site.Data.books.books (.Get 0) }}
   {{ range .content }}
     {{ . }}
   {{ end }}
