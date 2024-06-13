@@ -1,6 +1,6 @@
-{{ $data := index .Site.Data.books (.Get 0) }}
+{{ $data := index .Site.Data.books "housing-reform" }}
 {{ with $data }}
-  {{ range $data }}
+  {{ range .content }}
     <div>
         {{ .title }}{{ .author }}
     </div>
