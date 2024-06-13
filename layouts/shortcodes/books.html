@@ -3,7 +3,7 @@
 {{ with $data }}
   {{ range .content }}
     <div>
-        {{ . }}
+        {{ .title }}{{ .author }}
     </div>
   {{ end }}
 {{ end }}
