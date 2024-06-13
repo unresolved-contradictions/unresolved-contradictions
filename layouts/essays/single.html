@@ -55,7 +55,7 @@
   </div>
   {{- end }}
 
-{{ - if .Param "books" }}
+{{- if .Param "books" }}
 {{ $val := .Param "slug" }}
 {{ with index .Site.Data.books $val }}
 <div class="archive-year">
