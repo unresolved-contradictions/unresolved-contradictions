@@ -2,6 +2,8 @@
 {{ $data := index .Site.Data.books $val }}
 {{ with $data }}
   {{ range .content }}
-    {{ . }}
+    <div>
+        {{ . }}
+    </div>
   {{ end }}
 {{ end }}
