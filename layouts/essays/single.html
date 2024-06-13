@@ -55,6 +55,29 @@
   </div>
   {{- end }}
 
+{{ - if .Param "books" }}
+{{ $val := .Param "slug" }}
+{{ with index .Site.Data.books $val }}
+<div class="archive-year">
+  <div class="archive-month">
+    <h3 class="archive-month-header">Resources<sup class="archive-count">&nbsp;&nbsp;{{ $.content | len }}</sup></h3>
+    <div class="archive-posts">
+      {{ range $.content }}
+      <div class="archive-entry">
+        <h3 class="archive-entry-title entry-hint-parent">
+          {{ $.title | markdownify }}
+        </h3>
+        <div class="archive-meta">
+          {{ $.author | markdownify }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
+{{- end }}
+
   <footer class="post-footer">
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
