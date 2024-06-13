@@ -5,6 +5,7 @@ date = 2024-06-10T05:17:59+01:00
 description = 'Without drastic change to the housing market we are set to lock future generations in the private rental sector.'
 keywords = ['politics', 'economics', 'housing']
 slug = 'housing-reform'
+books = true
 +++
 
 I am firmly of the belief that housing is a human right and something that is essential for a happy and healthy life. States should do their best to ensure secure, safe, and affordable housing for their citizens. Unfortunately, the neoliberal shift in the late 20th century has left us in a situation where housing is unaffordable for so many, regardless of whether they are renting or buying. The explosion in private landlords and the normalisation of housing as an investment has ratcheted house prices over recent decades; for most this has seen their assets increase in value, but we are reaching a precipice now where younger generations are unable to get in on the market. There will come a time when prices simply cannot continue to rise, what then? Why have prices risen so fast and so reliably for so long and what can be done?
@@ -67,5 +68,3 @@ The [Tory](https://theconversation.com/conservative-manifesto-puts-home-ownershi
 The [Lib Dem](https://www.libdems.org.uk/manifesto) offering gives some hope that the consensus among other parties is changing. Alongside planning reform and incentives for communities to allow building, they intend to strengthen rental property standards and roll out a warm-home improvement scheme.
 
 We've not yet heard from the Labour party, but given the rumblings in recent weeks that they intend to extend the Help to Buy scheme, I am not holding out too much hope.
-
-{{< books "housing-reform" >}}
