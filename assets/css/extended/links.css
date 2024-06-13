@@ -1,6 +1,11 @@
 .archive-year {
     margin-top: var(--gap);
 }
+.reading-div {
+    margin-top: var(--gap);
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--border);
+}
 .archive-month-header {
     margin: 0;
 }

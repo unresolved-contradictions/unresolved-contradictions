@@ -1,17 +1,18 @@
 {
     "housing-reform": [
         {
+            "name": "housing-reform",
             "content": [
                 {
-                    "title": "Against Landlords: How to Solve the Housing Crisis",
+                    "title": "[Against Landlords: How to Solve the Housing Crisis](https://www.versobooks.com/en-gb/products/2956-against-landlords?_pos=1&_psq=against+land&_ss=e&_v=1.0)",
                     "author": "Nick Bano"
                 },
                 {
-                    "title": "Municipal Dreams: the Rise and Fall of Council Housings",
+                    "title": "[Municipal Dreams: the Rise and Fall of Council Housing](https://www.versobooks.com/en-gb/products/332-municipal-dreams?_pos=1&_psq=munici&_ss=e&_v=1.0)",
                     "author": "John Boughton"
                 },
                 {
-                    "title": "Housing Shock: The Irish Housing Crisis and How to Solve It",
+                    "title": "[Housing Shock: The Irish Housing Crisis and How to Solve It](https://policy.bristoluniversitypress.co.uk/housing-shock)",
                     "author": "Rory Hearne"
                 }
             ]
