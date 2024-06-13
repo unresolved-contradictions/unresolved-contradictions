@@ -1,4 +1,6 @@
-{{ with index .Site.Data.books.books (.Get 0) }}
+{{ $val := .Get 0 }}
+{{ $data := index .Site.Data.books.books $val }}
+{{ with $data }}
   {{ range .content }}
     {{ . }}
   {{ end }}
