@@ -21,5 +21,16 @@
                 }
             ]
         }
+    ],
+    "delivery-problem": [
+        {
+            "name": "delivery-problem",
+            "content": [
+                {
+                    "title": "[When Nothing Works](https://manchesteruniversitypress.co.uk/9781526173713/)",
+                    "author": "Luca Calafati, Julie Froud, Colin Haslam, Sukhdev Johal and Karel Williams"
+                }
+            ]
+        }
     ]
 }
