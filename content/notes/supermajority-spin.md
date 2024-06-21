@@ -2,7 +2,7 @@
 title = 'Supermajority Spin'
 date = 2024-06-21T11:37:04+01:00
 categories = ['politics', 'election']
-description = 'The Tory party has admitted defeat—they're scraping the barrel for votes now.'
+description = 'The Tory party has admitted defeat—they are scraping the barrel for votes now.'
 slug = 'supermajority-spin'
 stage = 'progress'
 type = 'notes'
