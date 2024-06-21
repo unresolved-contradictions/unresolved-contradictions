@@ -1,0 +1,21 @@
++++
+title = 'Supermajority Spin'
+date = 2024-06-21T11:37:04+01:00
+categories = ['politics', 'election']
+description = 'The Tory party has admitted defeat—they're scraping the barrel for votes now.'
+slug = 'supermajority-spin'
+stage = 'progress'
+type = 'notes'
++++
+
+Thanks to the absolute train-wreck of a campaign from the Tories, they are slowly coming around to the idea that people do not want to vote for them. CCHQ has taken stock and realised that almost certain defeat is coming their way and so have decided to go on the defensive. Instead of letting voters know the virtues of their—admittedly scant—policies, they are instead trying to scare voters with the prospect of a Labour 'supermajority'. It is a bold strategy that I am almost certain will not pay off, but what is a 'supermajority' and why should we be scared?
+
+To put it simply, there is no such thing as a 'supermajority' in UK politics, it is an Americanism imported to put fear into the electorate. Plenty of [other governments](https://en.wikipedia.org/wiki/Supermajority#Use_in_governments_around_the_world) require supermajorities for various aspects of governance, but not the UK. We're under the belief—rightly or wrongly—that a strong government should be able to do essentially as they please.
+
+The Westminster system of parliamentary politics requires only a simple majority{{< fn "50% of voting MPs, plus one." >}} to pass legislation. But last week, [Grant Shapps](https://www.bbc.co.uk/news/articles/cv221jple3jo) warned of a 'supermajority' that will allow a 'socialist' Labour Party to run amok. He asserted that with a big enough majority, a Labour government could pass any legislation they like without scrutiny. The Westminster system does have limited checks and balances, but that is a concern with any majority. Why is a large majority any different to the 80 seat majority the Tories won in 2019?
+
+It is a question of party discipline; the UK's parliamentary system is well known for its discipline and party-lines voting. In recent years this has taken a bit of a wobble with rebels being more active. If you command a slim majority, but your party is full of rebellious MPs, you are more beholden to the fringe groups around you to pass legislation. If, however, you have a clear direction, legislation to enact, and a party that supports you, you are free to do what you like with your majority. So with a large majority, you are mostly free of the worry of rebellious MPs; you will likely be able to pass controversial legislation in spite of a sizeable rebellion.
+
+Shapps did not have these concerns when, in 2019, the Tories bagged the biggest majority since 2001. He is throwing his toys out of the pram; he's clearly seen the writing on the wall and fears the impending extinction event coming for his party. For what it is worth, I do think that a single-party majority is bad for democracy, especially when First-past-the-post voting is used. Since 1945, only a single government{{< fn "This is a bit of a fishy one too, as it is the 2010 Con-Lib Dem coalition, with a [combined vote share](https://en.wikipedia.org/wiki/List_of_United_Kingdom_general_elections#21st_century) of 59.1%. I would be interested to know the percentage of Lib Dem voters that would have changed their vote given the choice" >}} has received more than 50% of the vote share at an election. That means that at 21 general elections, the *majority* of voters have voted for a party *other* than the one that gained power.
+
+It is [no secret](https://www.prospectmagazine.co.uk/politics/elections/general-election-2024/66929/the-myth-of-a-labour-supermajority) that the Tories wasted their majorities in 2015-2017 and 2019-2024. The party of Thatcher and bold—if terribly damaging—reform in days gone by has instead resigned itself to the culture war and [policies](https://inews.co.uk/news/politics/rishis-in-la-la-land-tory-critics-sunaks-rwanda-plan-wont-work-3019031) designed for headlines rather than positive outcomes. They can see an incoming government with some radical{{< fn "Well, radical when compared with recent Tory governance." >}} plans and fear that should the public see an [effective government](https://unresolved-contradictions.co.uk/essays/delivery-problem/) that delivers for them, it will be decades before the Tories return to power.
