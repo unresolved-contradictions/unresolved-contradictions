@@ -33,4 +33,27 @@
             ]
         }
     ]
+    "the-young-dont-vote": [
+        {
+            "name": "the-young-dont-vote",
+            "content": [
+                {
+                    "title": "[Against Elections](https://www.penguin.co.uk/books/434541/against-elections-by-david-van-reybrouck/9781847924223)",
+                    "author": "David Van Reybrouck"
+                },
+                {
+                    "title": "[The Athenian Option](https://www.imprint.co.uk/product/the-athenian-option-2/)",
+                    "author": "Anthony Barnett, Peter Carty"
+                },
+                {
+                    "title": "[Common Sense](https://americainclass.org/wp-content/uploads/2023/08/Common-Sense-Full-Text.pdf)",
+                    "author": "Thomas Paine"
+                },
+                {
+                    "title": "[Go Big](https://www.penguin.co.uk/books/441296/go-big-by-miliband-ed/9781529112757)",
+                    "author": "Ed Miliband"
+                }
+            ]
+        }
+    ]
 }
