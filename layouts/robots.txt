@@ -1,5 +1,3 @@
-Sitemap: {{ .Site.BaseURL }}/sitemap.xml
- 
 # hello robots [^_^]
 # let's be friends <3
  
