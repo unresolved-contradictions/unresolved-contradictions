@@ -73,6 +73,42 @@ mainSections = ["essays", "notes", "links"]
   icon = '/logo.svg'
   iconHeight = 35
 
+  [params.robots]
+  robots = [
+    "AdsBot-Google",
+    "Amazonbot",
+    "anthropic-ai",
+    "Applebot-Extended",
+    "Bytespider",
+    "CCBot",
+    "ChatGPT-User",
+    "ClaudeBot",
+    "Claude-Web",
+    "cohere-ai",
+    "Diffbot",
+    "FacebookBot",
+    "facebookexternalhit",
+    "FriendlyCrawler",
+    "Google-Extended",
+    "GoogleOther",
+    "GoogleOther-Image",
+    "GoogleOther-Video",
+    "GPTBot",
+    "ICC-Crawler",
+    "ImagesiftBot",
+    "img2dataset",
+    "Meta-ExternalAgent",
+    "OAI-SearchBot",
+    "omgili",
+    "omgilibot",
+    "PerplexityBot",
+    "PetalBot",
+    "Scrapy",
+    "Timpibot",
+    "VelenPublicWebCrawler",
+    "YouBot"
+  ]
+
 [taxonomies]
 category = 'categories'
 tag = 'tags'

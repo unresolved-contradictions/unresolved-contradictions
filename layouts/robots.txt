@@ -1,0 +1,13 @@
+Sitemap: {{ .Site.BaseURL }}/sitemap.xml
+ 
+# hello robots [^_^]
+# let's be friends <3
+ 
+User-agent: *
+Disallow:
+ 
+# except for these bots which are not friends:
+{{ range .Site.Params.robots }}
+User-agent: {{ . }}
+{{- end }}
+Disallow: /
