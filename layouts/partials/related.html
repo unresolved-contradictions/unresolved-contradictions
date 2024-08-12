@@ -10,6 +10,7 @@
       </footer>
   </article>
 </div>
+{{ if not ( eq .Type `microposts` )}}
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ if $related }}
 {{ with $related }}
@@ -40,6 +41,7 @@
 </div>
 {{ end }}
 {{ end }}
+
 
 {{ $currRellink := substr .RelPermalink 0 -1 }}
 {{ $currContent := .Content }}
@@ -77,4 +79,5 @@
         </footer>
     </article>
 </div>
+{{ end }}
 {{ end }}

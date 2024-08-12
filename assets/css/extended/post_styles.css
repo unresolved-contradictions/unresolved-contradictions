@@ -162,12 +162,15 @@
     border: 0;
     background: var(--entry-sections);
 }
-.post-entry:hover {
+.post-entry:not(.nohover):hover {
     transform: scale(1.01);
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     background: var(--entry);
     border-radius: var(--radius);
     transition: transform .25s ease-out, box-shadow .25s, background .25s;
+}
+.post-entry#microid:active {
+	transform: none;
 }
 .entry-content {
     font-family: Martel;
@@ -230,4 +233,21 @@ h2 .anchor {
 }
 .social-icons a:hover {
     transition: color 0.25s;
+}
+
+.micros-content {
+    -webkit-line-clamp: none !important;
+}
+.micros-content p {
+    margin-bottom: 0;
+}
+
+.micros-footer {
+    color: var(--secondary);
+    font-size: 13px;
+}
+.micros-footer:hover {
+    color: var(--primary);
+    font-size: 13px;
+    text-decoration: underline;
 }

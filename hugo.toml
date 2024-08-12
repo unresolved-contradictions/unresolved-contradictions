@@ -35,7 +35,7 @@ hideAuthor = true
 showtoc = false
 tocopen = false
 showFullTextInRss = true
-mainSections = ["essays", "notes", "links"]
+mainSections = ["essays", "notes", "links", "microposts"]
 robots = ["AdsBot-Google", "Amazonbot", "anthropic-ai", "Applebot-Extended", "Bytespider", "CCBot", "ChatGPT-User", "ClaudeBot", "Claude-Web", "cohere-ai", "Diffbot", "FacebookBot", "facebookexternalhit", "FriendlyCrawler", "Google-Extended", "GoogleOther", "GoogleOther-Image", "GoogleOther-Video", "GPTBot", "ICC-Crawler", "ImagesiftBot", "img2dataset", "Meta-ExternalAgent", "OAI-SearchBot", "omgili", "omgilibot", "PerplexityBot", "PetalBot", "Scrapy", "Timpibot", "VelenPublicWebCrawler", "YouBot"]
     
   [params.homeInfoParams]
@@ -79,6 +79,7 @@ category = 'categories'
 tag = 'tags'
 note = 'notes'
 essay = 'essays'
+micropost = 'microposts'
 
 [minify]
 disableXML = true
